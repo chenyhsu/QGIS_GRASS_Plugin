@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE qgisgrassmodule SYSTEM "http://mrcc.com/qgisgrassmodule.dtd">
+
+<qgisgrassmodule label="Snap point to modelled stream network." module="r.stream.snap">
+
+        <option key="input" />
+        <option key="output" />
+        <option key="stream_rast" />
+        <option key="accumulation" />
+        <option key="radius" />
+        <option key="memory" />
+        <flag key="overwrite" answer="off" hidden="no" advanced="yes"/>
+        <flag key="verbose" answer="on" hidden="no" advanced="yes"/>
+        <flag key="quiet" answer="off" hidden="no" advanced="yes"/>
+
+</qgisgrassmodule>
